@@ -1,0 +1,52 @@
+.card {
+  font-family: arial;
+  font-size: 20px;
+
+  color: black;
+  background-color: white;
+}
+div {
+  margin-bottom: 1rem;
+}
+.bold {
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+.word,
+.reading {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'MS Gothic';
+}
+
+.centerPositioning {
+  display: grid;
+  place-items: center;
+}
+
+.usage {
+  width: fit-content;
+  border: 1px solid black;
+  padding: 1rem;
+  font-family: 'MS Gothic';
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.point {
+  gap: 5px;
+  width: fit-content;
+  padding: 0.5rem;
+  background-color: #c20000;
+  color: #ffffff;
+}
+
+.example {
+  font-family: 'MS Gothic';
+}
